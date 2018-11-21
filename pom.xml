@@ -85,19 +85,10 @@
                 <groupId>it.unisa.plug</groupId>
                 <artifactId>dado</artifactId>
                 <version>0.10</version>
-                <executions>
-                    <execution>                
-                        <configuration>
-                          
-                            <phase>package</phase>
-
-                            <msg>${basedir}</msg>
-                        </configuration>
-                    </execution>
-                </executions>
+                
             </plugin>
             
-            <plugin>
+        <plugin>
                 <artifactId>exec-maven-plugin</artifactId>
                 <groupId>org.codehaus.mojo</groupId>
                 <version>1.4.0</version>
@@ -110,9 +101,9 @@
                             <goal>exec</goal>
                         </goals>
                         <configuration>
-                            <id>first-execution</id>
-                            <executable>${basedir}\tes.bat</executable>
-                            <id>second-execution</id>
+                           <id>first-execution</id>
+<!--                            <executable>${basedir}\tes.bat</executable>
+                            <id>second-execution</id>-->
                             <executable>${basedir}\invioParametro.bat</executable>
                             
                         </configuration>

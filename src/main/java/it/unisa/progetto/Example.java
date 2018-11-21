@@ -14,7 +14,11 @@ public class Example {
     public void doSomething(int p) {
         if (p == 1) {
             a();
-        } else {
+        } 
+        else if(p==22){
+            c();
+        }
+        else {
             b();
         }
     }
@@ -24,6 +28,10 @@ public class Example {
     }
 
     private void b() {
+        System.out.println("b");
+    }
+
+    private void c() {
         System.out.println("b");
     }
 }

@@ -6,25 +6,20 @@
 package it.unisa.test;
 
 import it.unisa.progetto.Example;
-
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 /**
  *
  * @author Rembor
  */
-public class ExampleTest {
-
-    @Test
-    public void test1() {
-        new Example().doSomething(1);
-    }
-
-    @Test
-    public void test2() {
-        new Example().doSomething(2);
-    }
+public class ExampleTest1 {
+   
+   
     
-    
+    @Test
+    public void test3(){
+        new Example().doSomething(22);
+    }
 
 }
