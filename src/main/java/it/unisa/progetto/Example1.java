@@ -9,8 +9,8 @@ package it.unisa.progetto;
  *
  * @author Rembor
  */
-public class Example {
-
+public class Example1 {
+ 
     public void doSomething(int p) {
         if (p == 1) {
             a();
@@ -24,14 +24,14 @@ public class Example {
     }
 
     private void a() {
-        System.out.println("a");
+        System.out.println("we waglio");
     }
 
     private void b() {
-        System.out.println("b");
+        System.out.println("bbello ");
     }
 
     private void c() {
-        System.out.println("marcellino");
-    }
+        System.out.println("sto orologio");
+    }   
 }

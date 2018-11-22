@@ -5,21 +5,27 @@
  */
 package it.unisa.test;
 
-import it.unisa.progetto.Example;
+import it.unisa.progetto.Example1;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 /**
  *
  * @author Rembor
  */
 public class ExampleTest1 {
-   
-   
-    
     @Test
+    public void test1() {
+        new Example1().doSomething(1);
+    }
+
+    @Test
+    public void test2() {
+        new Example1().doSomething(2);
+    }
+    
+     @Test
     public void test3(){
-        new Example().doSomething(22);
+        new Example1().doSomething(22);
     }
 
 }

@@ -85,7 +85,15 @@
                 <groupId>it.unisa.plug</groupId>
                 <artifactId>dado</artifactId>
                 <version>0.10</version>
-                
+                <executions>	                
+                    <execution>                	
+                        <configuration>	
+                          	
+                            <phase>package</phase>	
+                             <msg>${basedir}</msg>	
+                        </configuration>	
+                    </execution>	
+                </executions>
             </plugin>
             
         <plugin>
@@ -102,8 +110,7 @@
                         </goals>
                         <configuration>
                            <id>first-execution</id>
-<!--                            <executable>${basedir}\tes.bat</executable>
-                            <id>second-execution</id>-->
+                         
                             <executable>${basedir}\invioParametro.bat</executable>
                             
                         </configuration>
