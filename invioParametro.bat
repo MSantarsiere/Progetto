@@ -1,1 +1,1 @@
-mvn dado:hello1 -Dmsg=${basedir}
+mvn dado:hello2 -Dmsg=${basedir}

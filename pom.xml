@@ -42,24 +42,11 @@
     
     <build>
         <plugins>
-            
-           
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>2.3.2</version>
-           
-            </plugin>
-
-      
-      
-      
-      
-      
-            <plugin>
+              
+           <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.7.9</version>
+                <version>0.8.2</version>
                 <executions>
                     <execution>
                         <id>default-prepare-agent</id>
@@ -79,7 +66,9 @@
           
             
                         
+        
            
+                 
             
             <plugin>
                 <groupId>it.unisa.plug</groupId>
@@ -87,15 +76,20 @@
                 <version>0.10</version>
                 <executions>	                
                     <execution>                	
-                        <configuration>	
-                          	
-                            <phase>package</phase>	
-                             <msg>${basedir}</msg>	
+                        <phase>install</phase>
+                        <goals>
+                            <goal>hello1</goal>
+                            
+                        </goals>
+                        <configuration> 
+                            <msg>
+                                ${basedir}
+                            </msg>
                         </configuration>	
                     </execution>	
                 </executions>
             </plugin>
-            
+<!--            
         <plugin>
                 <artifactId>exec-maven-plugin</artifactId>
                 <groupId>org.codehaus.mojo</groupId>
@@ -120,7 +114,7 @@
                 </executions>
             </plugin>
        
-          
+            -->
        
         
         </plugins>
