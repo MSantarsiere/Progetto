@@ -8,7 +8,7 @@
     
     <scm>
     <url>https://github.com/MSantarsiere/Progetto</url>
-    <connection>scm:git:git@github.com:example/project.git</connection>
+    <connection>scm:git:git@github.com:MSantarsiere/Progetto.git</connection>
     <developerConnection>scm:git:git@github.com:MSantarsiere/Progetto.git</developerConnection>
 </scm>
     <properties>
