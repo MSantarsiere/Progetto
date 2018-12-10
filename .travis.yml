@@ -1,4 +1,4 @@
-os: windows
+
 language: java
 deploy:
   provider: pages
