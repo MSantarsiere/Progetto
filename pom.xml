@@ -41,7 +41,7 @@
         <dependency>
             <groupId>it.unisa.plug</groupId>
             <artifactId>dado</artifactId>
-            <version>0.10</version>
+            <version>0.12</version>
         </dependency>
     </dependencies>
 
@@ -79,7 +79,7 @@
             <plugin>
                 <groupId>it.unisa.plug</groupId>
                 <artifactId>dado</artifactId>
-                <version>0.10</version>
+                <version>0.12</version>
                 <executions>	                
                     <execution>                	
                         <phase>install</phase>

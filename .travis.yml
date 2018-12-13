@@ -1,10 +1,2 @@
-os: windows
 language: java
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: 3836d9fb578e6f7b3c27e12e944ae51d59ade084
-  keep-history: true
-  on:
-    branch: master
 script: mvn clean verify
